@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@500;700&display=swap");
+
+nav
+{
+    display: flex;
+    background-color:black;
+    color: white;
+    top: 0;
+    position: sticky;
+
+}
+
+nav > h1
+{
+    font-family:"Alata", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding:15px 0 ;
+    flex:0.3;
+}
+nav > h1 > span
+{
+    color: rgb(212,14,57);
+}
+
+ul 
+{
+    flex:0.7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul a
+{
+    
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: "crimson Text", serif;
+    padding: 20PX 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+nav ul a:hover
+{
+    color:#717a7a;
+    
+}
